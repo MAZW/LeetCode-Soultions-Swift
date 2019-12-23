@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636337D023B0C03100EDE274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636337CF23B0C03100EDE274 /* AppDelegate.swift */; };
+		636337D223B0C03100EDE274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636337D123B0C03100EDE274 /* ViewController.swift */; };
+		636337D523B0C03100EDE274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636337D323B0C03100EDE274 /* Main.storyboard */; };
+		636337D723B0C03200EDE274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636337D623B0C03200EDE274 /* Assets.xcassets */; };
+		636337DA23B0C03200EDE274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636337D823B0C03200EDE274 /* LaunchScreen.storyboard */; };
+		636337E523B0C03200EDE274 /* LeetCode_Soultions_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636337E423B0C03200EDE274 /* LeetCode_Soultions_SwiftTests.swift */; };
+		636337F023B0C03200EDE274 /* LeetCode_Soultions_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636337EF23B0C03200EDE274 /* LeetCode_Soultions_SwiftUITests.swift */; };
+		636337FE23B0C69600EDE274 /* LeetCodeTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636337FD23B0C69600EDE274 /* LeetCodeTestHelper.swift */; };
+		6363380223B0CACD00EDE274 /* LC001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363380123B0CACD00EDE274 /* LC001_TwoSum.swift */; };
+		6363380523B0CCBD00EDE274 /* LC001_TwoSum_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363380423B0CCBD00EDE274 /* LC001_TwoSum_Test.swift */; };
+		6363380623B0CE0800EDE274 /* LC001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363380123B0CACD00EDE274 /* LC001_TwoSum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		636337E123B0C03200EDE274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636337C423B0C03100EDE274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636337CB23B0C03100EDE274;
+			remoteInfo = "LeetCode-Soultions-Swift";
+		};
+		636337EC23B0C03200EDE274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636337C423B0C03100EDE274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636337CB23B0C03100EDE274;
+			remoteInfo = "LeetCode-Soultions-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636337CC23B0C03100EDE274 /* LeetCode-Soultions-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeetCode-Soultions-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		636337CF23B0C03100EDE274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		636337D123B0C03100EDE274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		636337D423B0C03100EDE274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		636337D623B0C03200EDE274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		636337D923B0C03200EDE274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		636337DB23B0C03200EDE274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636337E023B0C03200EDE274 /* LeetCode-Soultions-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeetCode-Soultions-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		636337E423B0C03200EDE274 /* LeetCode_Soultions_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_Soultions_SwiftTests.swift; sourceTree = "<group>"; };
+		636337E623B0C03200EDE274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636337EB23B0C03200EDE274 /* LeetCode-Soultions-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeetCode-Soultions-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		636337EF23B0C03200EDE274 /* LeetCode_Soultions_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_Soultions_SwiftUITests.swift; sourceTree = "<group>"; };
+		636337F123B0C03200EDE274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636337FD23B0C69600EDE274 /* LeetCodeTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTestHelper.swift; sourceTree = "<group>"; };
+		6363380123B0CACD00EDE274 /* LC001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC001_TwoSum.swift; sourceTree = "<group>"; };
+		6363380423B0CCBD00EDE274 /* LC001_TwoSum_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC001_TwoSum_Test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636337C923B0C03100EDE274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636337DD23B0C03200EDE274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636337E823B0C03200EDE274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636337C323B0C03100EDE274 = {
+			isa = PBXGroup;
+			children = (
+				636337CE23B0C03100EDE274 /* LeetCode-Soultions-Swift */,
+				636337E323B0C03200EDE274 /* LeetCode-Soultions-SwiftTests */,
+				636337EE23B0C03200EDE274 /* LeetCode-Soultions-SwiftUITests */,
+				636337CD23B0C03100EDE274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636337CD23B0C03100EDE274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636337CC23B0C03100EDE274 /* LeetCode-Soultions-Swift.app */,
+				636337E023B0C03200EDE274 /* LeetCode-Soultions-SwiftTests.xctest */,
+				636337EB23B0C03200EDE274 /* LeetCode-Soultions-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636337CE23B0C03100EDE274 /* LeetCode-Soultions-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6363380023B0CA4000EDE274 /* Array */,
+				636337FF23B0CA0000EDE274 /* LinkedList */,
+				636337CF23B0C03100EDE274 /* AppDelegate.swift */,
+				636337D123B0C03100EDE274 /* ViewController.swift */,
+				636337D323B0C03100EDE274 /* Main.storyboard */,
+				636337D623B0C03200EDE274 /* Assets.xcassets */,
+				636337D823B0C03200EDE274 /* LaunchScreen.storyboard */,
+				636337DB23B0C03200EDE274 /* Info.plist */,
+			);
+			path = "LeetCode-Soultions-Swift";
+			sourceTree = "<group>";
+		};
+		636337E323B0C03200EDE274 /* LeetCode-Soultions-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				636337FD23B0C69600EDE274 /* LeetCodeTestHelper.swift */,
+				6363380323B0CC9200EDE274 /* Array */,
+				636337E423B0C03200EDE274 /* LeetCode_Soultions_SwiftTests.swift */,
+				636337E623B0C03200EDE274 /* Info.plist */,
+			);
+			path = "LeetCode-Soultions-SwiftTests";
+			sourceTree = "<group>";
+		};
+		636337EE23B0C03200EDE274 /* LeetCode-Soultions-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				636337EF23B0C03200EDE274 /* LeetCode_Soultions_SwiftUITests.swift */,
+				636337F123B0C03200EDE274 /* Info.plist */,
+			);
+			path = "LeetCode-Soultions-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		636337FF23B0CA0000EDE274 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		6363380023B0CA4000EDE274 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				6363380123B0CACD00EDE274 /* LC001_TwoSum.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		6363380323B0CC9200EDE274 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				6363380423B0CCBD00EDE274 /* LC001_TwoSum_Test.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636337CB23B0C03100EDE274 /* LeetCode-Soultions-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636337F423B0C03200EDE274 /* Build configuration list for PBXNativeTarget "LeetCode-Soultions-Swift" */;
+			buildPhases = (
+				636337C823B0C03100EDE274 /* Sources */,
+				636337C923B0C03100EDE274 /* Frameworks */,
+				636337CA23B0C03100EDE274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeetCode-Soultions-Swift";
+			productName = "LeetCode-Soultions-Swift";
+			productReference = 636337CC23B0C03100EDE274 /* LeetCode-Soultions-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		636337DF23B0C03200EDE274 /* LeetCode-Soultions-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636337F723B0C03200EDE274 /* Build configuration list for PBXNativeTarget "LeetCode-Soultions-SwiftTests" */;
+			buildPhases = (
+				636337DC23B0C03200EDE274 /* Sources */,
+				636337DD23B0C03200EDE274 /* Frameworks */,
+				636337DE23B0C03200EDE274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636337E223B0C03200EDE274 /* PBXTargetDependency */,
+			);
+			name = "LeetCode-Soultions-SwiftTests";
+			productName = "LeetCode-Soultions-SwiftTests";
+			productReference = 636337E023B0C03200EDE274 /* LeetCode-Soultions-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		636337EA23B0C03200EDE274 /* LeetCode-Soultions-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636337FA23B0C03200EDE274 /* Build configuration list for PBXNativeTarget "LeetCode-Soultions-SwiftUITests" */;
+			buildPhases = (
+				636337E723B0C03200EDE274 /* Sources */,
+				636337E823B0C03200EDE274 /* Frameworks */,
+				636337E923B0C03200EDE274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636337ED23B0C03200EDE274 /* PBXTargetDependency */,
+			);
+			name = "LeetCode-Soultions-SwiftUITests";
+			productName = "LeetCode-Soultions-SwiftUITests";
+			productReference = 636337EB23B0C03200EDE274 /* LeetCode-Soultions-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636337C423B0C03100EDE274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mazw;
+				TargetAttributes = {
+					636337CB23B0C03100EDE274 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					636337DF23B0C03200EDE274 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 636337CB23B0C03100EDE274;
+					};
+					636337EA23B0C03200EDE274 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 636337CB23B0C03100EDE274;
+					};
+				};
+			};
+			buildConfigurationList = 636337C723B0C03100EDE274 /* Build configuration list for PBXProject "LeetCode-Soultions-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 636337C323B0C03100EDE274;
+			productRefGroup = 636337CD23B0C03100EDE274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636337CB23B0C03100EDE274 /* LeetCode-Soultions-Swift */,
+				636337DF23B0C03200EDE274 /* LeetCode-Soultions-SwiftTests */,
+				636337EA23B0C03200EDE274 /* LeetCode-Soultions-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636337CA23B0C03100EDE274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636337DA23B0C03200EDE274 /* LaunchScreen.storyboard in Resources */,
+				636337D723B0C03200EDE274 /* Assets.xcassets in Resources */,
+				636337D523B0C03100EDE274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636337DE23B0C03200EDE274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636337E923B0C03200EDE274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636337C823B0C03100EDE274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636337D223B0C03100EDE274 /* ViewController.swift in Sources */,
+				636337D023B0C03100EDE274 /* AppDelegate.swift in Sources */,
+				6363380223B0CACD00EDE274 /* LC001_TwoSum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636337DC23B0C03200EDE274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636337FE23B0C69600EDE274 /* LeetCodeTestHelper.swift in Sources */,
+				636337E523B0C03200EDE274 /* LeetCode_Soultions_SwiftTests.swift in Sources */,
+				6363380523B0CCBD00EDE274 /* LC001_TwoSum_Test.swift in Sources */,
+				6363380623B0CE0800EDE274 /* LC001_TwoSum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636337E723B0C03200EDE274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636337F023B0C03200EDE274 /* LeetCode_Soultions_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636337E223B0C03200EDE274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636337CB23B0C03100EDE274 /* LeetCode-Soultions-Swift */;
+			targetProxy = 636337E123B0C03200EDE274 /* PBXContainerItemProxy */;
+		};
+		636337ED23B0C03200EDE274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636337CB23B0C03100EDE274 /* LeetCode-Soultions-Swift */;
+			targetProxy = 636337EC23B0C03200EDE274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		636337D323B0C03100EDE274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636337D423B0C03100EDE274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		636337D823B0C03200EDE274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636337D923B0C03200EDE274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		636337F223B0C03200EDE274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		636337F323B0C03200EDE274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		636337F523B0C03200EDE274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2XT4SYW7A;
+				INFOPLIST_FILE = "LeetCode-Soultions-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazw.LeetCode-Soultions-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		636337F623B0C03200EDE274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2XT4SYW7A;
+				INFOPLIST_FILE = "LeetCode-Soultions-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazw.LeetCode-Soultions-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		636337F823B0C03200EDE274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2XT4SYW7A;
+				INFOPLIST_FILE = "LeetCode-Soultions-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazw.LeetCode-Soultions-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCode-Soultions-Swift.app/LeetCode-Soultions-Swift";
+			};
+			name = Debug;
+		};
+		636337F923B0C03200EDE274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2XT4SYW7A;
+				INFOPLIST_FILE = "LeetCode-Soultions-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazw.LeetCode-Soultions-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCode-Soultions-Swift.app/LeetCode-Soultions-Swift";
+			};
+			name = Release;
+		};
+		636337FB23B0C03200EDE274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2XT4SYW7A;
+				INFOPLIST_FILE = "LeetCode-Soultions-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazw.LeetCode-Soultions-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LeetCode-Soultions-Swift";
+			};
+			name = Debug;
+		};
+		636337FC23B0C03200EDE274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2XT4SYW7A;
+				INFOPLIST_FILE = "LeetCode-Soultions-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazw.LeetCode-Soultions-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LeetCode-Soultions-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636337C723B0C03100EDE274 /* Build configuration list for PBXProject "LeetCode-Soultions-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636337F223B0C03200EDE274 /* Debug */,
+				636337F323B0C03200EDE274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636337F423B0C03200EDE274 /* Build configuration list for PBXNativeTarget "LeetCode-Soultions-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636337F523B0C03200EDE274 /* Debug */,
+				636337F623B0C03200EDE274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636337F723B0C03200EDE274 /* Build configuration list for PBXNativeTarget "LeetCode-Soultions-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636337F823B0C03200EDE274 /* Debug */,
+				636337F923B0C03200EDE274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636337FA23B0C03200EDE274 /* Build configuration list for PBXNativeTarget "LeetCode-Soultions-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636337FB23B0C03200EDE274 /* Debug */,
+				636337FC23B0C03200EDE274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636337C423B0C03100EDE274 /* Project object */;
+}
